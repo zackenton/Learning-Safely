@@ -1,2 +1,2 @@
 # Learning Safely
-A blog on explorations of safety in machine learning.
+A blog about safety in machine learning
