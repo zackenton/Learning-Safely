@@ -6,3 +6,14 @@ title: Learning Safely
 	<h1>Safety in machine learning.</h1>
 	<p>This blog is about my thoughts on positively aligning the future of artificial intelligence, focussing on safety in machine learning.  </p>
 </div><!-- /.blurb -->
+
+<section class="posts">
+    {% for post in site.posts %}
+    <article class="post">
+        <h1 class="post-title">
+	    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h1>
+	    {{ post.excerpt }}
+    </article>
+    {% endfor %}
+</section>
