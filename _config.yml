@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 title: "Learning Safely"
 description: "A blog about safety in machine learning"
+permalink: /blog/:year/:month/:day/:title
